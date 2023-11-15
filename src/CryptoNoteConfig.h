@@ -109,7 +109,10 @@ const std::initializer_list<const char*> SEED_NODES = {
   //"your_seed_ip1.com:8080",
   //"your_seed_ip2.com:8080",
 };
-
+//Added by me
+const int P2P_DEFAULT_PORT = 17236;
+const int RPC_DEFAULT_PORT = 18236;
+//
 struct CheckpointData {
   uint32_t height;
   const char* blockId;
